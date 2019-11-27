@@ -48,6 +48,7 @@ class Auth extends CI_Controller{
         $id_user_spv = $this->input->post('id_user_spv');
         $phone = $this->input->post('phone');
         $mobile_phone = $this->input->post('mobile_phone');
+        $mobile_phone = $this->input->post('mobile_phone');
 
         $this->db->where('email',$email);
         $result = $this->db->get('db_users');
